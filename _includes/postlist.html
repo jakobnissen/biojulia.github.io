@@ -1,15 +1,18 @@
 {% assign numPost = include.postArray | size %}
 {% if numPost > 0 %}
-    <ul>
         {% for post in include.postArray %}
-            <li>
-                <a href="{{ post.url }}">
-                    <b>{{ post.title }}</b>
-                </a>
-                <p>By {{ post.author }}, {{ post.date | date_to_long_string }}</p>
-            </li>
+            <div class="card">
+                <div class="card-block">
+                    <a href="{{ post.url }}">
+                        <h4 class="card-title">{{ post.title }}</h4>
+                    </a>
+                    <h6 class="card-subtitle mb-2 text-muted">
+                        By {{ post.author }}, {{ post.date | date_to_long_string }}
+                    </h6>
+                </div>
+            </div>
+            <br>
         {% endfor %}
-    </ul>
 {% else %}
 <p>There are no posts available</p>
 {% endif %}

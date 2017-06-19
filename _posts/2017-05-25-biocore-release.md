@@ -1,8 +1,9 @@
 ---
 layout: post
-title: "BioCore v1.0.0 released!"
+title: "BioCore v1.0.0 released"
 author: "Ben J. Ward"
 categories: News
+tags: [release]
 ---
 
 We are happy to announce the first release of BioCore.jl.

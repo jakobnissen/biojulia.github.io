@@ -26,13 +26,16 @@ title: Home
 
 
 <div class="container">
-    <h1>Latest...</h1>
-    <div class="col-md-6">
-        <h2>News</h2>
-        {% include postlist.html postArray=site.categories.News %}
-    </div>
-    <div class="col-md-6">
-        <h2>Blog Posts</h2>
-        {% include postlist.html postArray=site.categories.Blog %}
+    <div class="row">
+        <div class="col-md-6">
+            <h2>Latest news</h2>
+            <hr>
+            {% include postlist.html postArray=site.categories.News %}
+        </div>
+        <div class="col-md-6">
+            <h2>Latest blog posts</h2>
+            <hr>
+            {% include postlist.html postArray=site.categories.Blog %}
+        </div>
     </div>
 </div>

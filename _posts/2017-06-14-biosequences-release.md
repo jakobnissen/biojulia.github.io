@@ -1,8 +1,9 @@
 ---
 layout: post
-title: "BioSequences.jl Released"
+title: "BioSequences.jl release"
 author: "Ben"
 categories: News
+tags: [release]
 ---
 
 We are pleased to announce that our package for working with biological
