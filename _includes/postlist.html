@@ -1,0 +1,15 @@
+{% assign numPost = include.postArray | size %}
+{% if numPost > 0 %}
+    <ul>
+        {% for post in include.postArray %}
+            <li>
+                <a href="{{ post.url }}">
+                    <b>{{ post.title }}</b>
+                </a>
+                <p>By {{ post.author }}, {{ post.date | date_to_long_string }}</p>
+            </li>
+        {% endfor %}
+    </ul>
+{% else %}
+<p>There are no posts available</p>
+{% endif %}

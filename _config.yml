@@ -1,0 +1,26 @@
+# Site
+title:            BioJulia
+reading_time:     true
+words_per_minute: 200
+locale:           en_GB
+url:              https://BioJulia.github.io
+
+# Jekyll
+markdown:           kramdown
+highlighter:        rouge
+kramdown:
+    auto_ids:       true
+    footnote_nr:    1
+    entity_output:  as_char
+    toc_levels:     1..6
+    enable_coderay: false
+mathjax:            true
+collections:
+    biojl_members:
+        output: true
+        permalink: /members/:name.html
+
+gems:
+    - jekyll-avatar
+
+exclude: [README.md, .DS_Store, LICENSE, _site]

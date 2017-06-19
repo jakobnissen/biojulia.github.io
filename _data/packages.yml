@@ -1,0 +1,46 @@
+- name: Bio.jl
+  link: https://github.com/BioJulia/Bio.jl
+  tagline: Julia infrastructure for bioinformatics.
+
+- name: BioCore.jl
+  link: https://github.com/BioJulia/BioCore.jl
+  tagline: Common function and type definitions for BioJulia packages.
+
+- name: BioSymbols.jl
+  link: https://github.com/BioJulia/BioSymbols.jl
+  tagline: Nucleic and amino acid primitives.
+
+- name: BioSequences.jl
+  link: https://github.com/BioJulia/BioSequences.jl
+  tagline: DNA, RNA, and Amino acid sequences.
+
+- name: Automa.jl
+  link: https://github.com/BioJulia/Automa.jl
+  tagline: Create 
+
+- name: BufferedStreams.jl
+  link: https://github.com/BioJulia/BufferedStreams.jl
+
+- name: Libz.jl
+  link: https://github.com/BioJulia/Libz.jl
+
+- name: BGZFStreams.jl
+  link: https://github.com/BioJulia/BGZFStreams.jl
+
+- name: WAHVectors.jl
+  link: https://github.com/BioJulia/WAHVectors.jl
+
+- name: IntervalTrees.jl
+  link: https://github.com/BioJulia/IntervalTrees.jl
+
+- name: IndexableBitVectors.jl
+  link: https://github.com/BioJulia/IndexableBitVectors.jl
+
+- name: ReferenceSequences.jl
+  link: https://github.com/BioJulia/ReferenceSequences.jl
+
+- name: FMIndexes.jl
+  link: https://github.com/BioJulia/FMIndexes.jl
+
+- name: WaveletMatrices.jl
+  link: https://github.com/BioJulia/WaveletMatrices.jl
