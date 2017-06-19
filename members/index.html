@@ -1,0 +1,59 @@
+---
+title: Community Members
+subtitle: Developers and members of the BioJulia group
+layout: standardpage
+active: members
+---
+
+{% assign members = site.biojl_members | sort:"membername"  %}
+{% for member in members %}
+    {% assign loopindex = forloop.index | modulo: 3 %}
+    {% if loopindex == 1 %}
+    <div class="row"><!-- Start of group -->
+    {% endif %}
+    <div class="col-md-3">
+        <div class="thumbnail">
+            <a href="{{ member.url }}">
+                <img class="img-thumbnail" src="https://avatars3.githubusercontent.com/{{ member.github }}?v=3&s=200" alt="{{ member.github }}" srcset="https://avatars3.githubusercontent.com/{{ member.github }}?v=3&s=250 1x, https://avatars3.githubusercontent.com/{{ member.github }}?v=3&s=500 2x, https://avatars3.githubusercontent.com/{{ member.github }}?v=3&s=750 3x, https://avatars3.githubusercontent.com/{{ member.github }}?v=3&s=1000 4x" data-proofer-ignore="true" />
+            </a>
+            <p>
+                <h3 class="media-heading">
+                    <a href="{{ member.url }}">{{ member.membername }}</a>
+                </h3>
+                <h5>{{ member.biojl_roles | join:", " }}</h5>
+                <center>
+                <div class="btn-group" role="group">
+                    {% if member.email %}
+                    <a href="mailto:{{ member.email }}" class="btn btn-link">
+                        <span class="fa fa-envelope-square fa-2x"></span>
+                    </a>
+                    {% endif %}
+                    {% if member.twitter %}
+                    <a href="https://twitter.com/{{ member.twitter }}" class="btn btn-link">
+                        <span class="fa fa-twitter-square fa-2x"></span>
+                    </a>
+                    {% endif %}
+                    {% if member.gplus %}
+                    <a href ="{{ page.gplus }}" class="btn btn-link">
+                        <span class="fa fa-google-plus-square fa-2x"></span>
+                    </a>
+                    {% endif %}
+                    {% if member.github %}
+                    <a href="https://github.com/{{ member.github }}" class="btn btn-link">
+                        <span class="fa fa-github fa-2x"></span>
+                    </a>
+                    {% endif %}
+                    {% if member.website %}
+                    <a href="{{ member.website }}" class="btn btn-link">
+                        <span class="fa fa-globe fa-2x"></span>
+                    </a>
+                    {% endif %}
+                </div>
+            </center>
+            </p>
+        </div>
+    {% if loopindex == 0 or forloop.last == true %}
+    </div> <!-- End of group -->
+    {% endif %}
+{% endfor %}
+</div>

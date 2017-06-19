@@ -1,0 +1,38 @@
+---
+layout: biojl
+title: Home
+---
+
+<div class="jumbotron jumbotron-fluid">
+    <div class="container">
+        <h1 class="display-4">
+            <img src="/img/BioJulia_Brand.svg" width="auto" height="100%" />
+            <p>
+                <div class="fadeword" id="content-1">Fast</div>
+                <div class="fadeword" id="content-2">Easy</div>
+                software for biology.
+            </p>
+        </h1>
+        <hr class="my-4">
+        <p class="lead">
+            BioJulia is a julialang community for biologists and
+            bioinformaticians, working to create great modern software packages
+            for computing with biological data.
+
+            This site is currently under construction. More is to come.
+        </p>
+    </div>
+</div>
+
+
+<div class="container">
+    <h1>Latest...</h1>
+    <div class="col-md-6">
+        <h2>News</h2>
+        {% include postlist.html postArray=site.categories.News %}
+    </div>
+    <div class="col-md-6">
+        <h2>Blog Posts</h2>
+        {% include postlist.html postArray=site.categories.Blog %}
+    </div>
+</div>

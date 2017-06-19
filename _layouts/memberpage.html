@@ -1,0 +1,62 @@
+---
+layout: biojl
+---
+<div class="jumbotron jumbotron-fluid">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+                <img style="display:inline-block;" class="img-thumbnail" src="https://avatars3.githubusercontent.com/{{ page.github }}?v=3&s=250" alt="{{ page.github }}" srcset="https://avatars3.githubusercontent.com/{{ page.github }}?v=3&s=250 1x, https://avatars3.githubusercontent.com/{{ page.github }}?v=3&s=500 2x, https://avatars3.githubusercontent.com/{{ page.github }}?v=3&s=750 3x, https://avatars3.githubusercontent.com/{{ page.github }}?v=3&s=1000 4x" data-proofer-ignore="true" />
+            </div>
+            <div class="col">
+                <h1 class="display-4" style="display:inline-block;">
+                    {{ page.membername }}
+                </h1>
+                <p class="lead">
+                    {{ page.position }}, {{page.institute}}
+                    <br>
+                    BioJulia: {{ page.biojl_roles | join:", " }}
+                </p>
+                <div class="btn-group" role="group">
+                    {% if page.email %}
+                    <a href="mailto:{{ page.email }}" class="btn btn-link" data-toggle="tooltip" data-placement="bottom" title="email">
+                        <span class="fa fa-envelope-square fa-2x"></span>
+                    </a>
+                    {% endif %}
+                    {% if page.twitter %}
+                    <a href="https://twitter.com/{{ page.twitter }}" class="btn btn-link" data-toggle="tooltip" data-placement="bottom" title="twitter">
+                        <span class="fa fa-twitter-square fa-2x"></span>
+                    </a>
+                    {% endif %}
+                    {% if page.github %}
+                    <a href="https://github.com/{{ page.github }}" class="btn btn-link" data-toggle="tooltip" data-placement="bottom" title="github">
+                        <span class="fa fa-github fa-2x"></span>
+                    </a>
+                    {% endif %}
+                    {% if page.website %}
+                    <a href="{{ page.website }}" class="btn btn-link" data-toggle="tooltip" data-placement="bottom" title="website">
+                        <span class="fa fa-globe fa-2x"></span>
+                    </a>
+                    {% endif %}
+                    {% if page.keybase %}
+                    <a href="https://keybase.io/{{ page.keybase }}" class="btn btn-link" data-toggle="tooltip" data-placement="bottom" title="keybase.io">
+                        <span class="fa fa-key fa-2x"></span>
+                    </a>
+                    {% endif %}
+                    {% if page.stackoverflow %}
+                    <a href="https://stackoverflow.com/users/{{ page.stackoverflow }}" class="btn btn-link" data-toggle="tooltip" data-placement="bottom" title="stack-overflow">
+                        <span class="fa fa-stack-overflow fa-2x"></span>
+                    </a>
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <div class="row">
+        <div class="col">
+            <h3>Bio</h3>
+            {{ content }}
+        </div>
+    </div>
+</div>
