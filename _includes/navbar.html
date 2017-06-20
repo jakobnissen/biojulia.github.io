@@ -23,10 +23,21 @@
             Packages
             <span class="caret"></span>
         </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+        <div class="dropdown-menu" aria-labelledby="navbarBiologyDropdownMenuLink">
           <a class="dropdown-item" href="/packages"><span class="fa fa-gift fa-lg"></span> All Packages</a>
+          <div class="dropdown-divider"></div>
+          <h6 class="dropdown-header">Top Biology packages</h6>
           {% for package in site.data.packages %}
+          {% if package.type == "biology" and package.top == true %}
           <a class="dropdown-item" data-toggle="tooltip" data-placement="right" title="{{ package.tagline }}" href="{{ package.link }}">{{ package.name }}</a>
+          {% endif %}
+          {% endfor %}
+          <div class="dropdown-divider"></div>
+          <h6 class="dropdown-header">Top Infrastructure packages</h6>
+          {% for package in site.data.packages %}
+          {% if package.type == "infrastructure"  and package.top == true %}
+          <a class="dropdown-item" data-toggle="tooltip" data-placement="right" title="{{ package.tagline }}" href="{{ package.link }}">{{ package.name }}</a>
+          {% endif %}
           {% endfor %}
         </div>
       </li>
