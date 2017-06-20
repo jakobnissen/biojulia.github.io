@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "BioCore v1.1.0 released"
-author: "Ben J. Ward"
+author: ben_ward
 categories: News
 tags: [release]
 ---

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "BioSequences.jl release"
-author: "Ben"
+author: ben_ward
 categories: News
 tags: [release]
 ---

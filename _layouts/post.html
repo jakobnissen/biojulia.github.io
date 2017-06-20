@@ -2,6 +2,9 @@
 layout: biojl
 ---
 
+<!-- Look the author details up from the site config. -->
+{% assign author = site.data.authors[page.author] %}
+
 <div class="jumbotron jumbortron-fluid">
     <div class="container">
         <h1 class="display-3">
@@ -11,7 +14,9 @@ layout: biojl
             {{ page.title }}
         </h1>
         <hr>
-        <p class="lead">By {{ page.author }} - {{ page.date | date: '%B %d, %Y' }}</p>
+        <p class="lead">
+            By {{ author.name }} - {{ page.date | date: '%B %d, %Y' }}
+        </p>
     </div>
 </div>
 <div class="container">
