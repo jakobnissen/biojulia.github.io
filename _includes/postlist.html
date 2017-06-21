@@ -1,13 +1,14 @@
 {% assign numPost = include.postArray | size %}
 {% if numPost > 0 %}
         {% for post in include.postArray %}
+        {% assign author = site.data.authors[post.author] %}
             <div class="card">
                 <div class="card-block">
                     <a href="{{ post.url }}">
                         <h4 class="card-title">{{ post.title }}</h4>
                     </a>
                     <h6 class="card-subtitle mb-2 text-muted">
-                        By {{ post.author }}, {{ post.date | date_to_long_string }}
+                        By {{ author.name }}, {{ post.date | date_to_long_string }}
                     </h6>
                 </div>
             </div>
