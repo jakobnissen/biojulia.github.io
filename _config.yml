@@ -20,4 +20,7 @@ collections:
         output: true
         permalink: /members/:name.html
 
+gems:
+    - jekyll-feed
+
 exclude: [README.md, .DS_Store, LICENSE, _site]
