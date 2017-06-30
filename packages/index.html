@@ -1,0 +1,53 @@
+---
+title: BioJulia Packages
+subtitle: Software Packages developed and maintained by the BioJulia organisation.
+layout: standardpage
+---
+
+<h1>Biology packages</h1>
+
+{% for package in site.data.packages %}
+{% if package.type == biology %}
+<div class="card">
+    <div class="card-block">
+        <h4 class="card-title">{{ package.name }}</h4>
+        <h6 class="card-subtitle mb-2 text-muted">
+            {{ package.tagline }}
+        </h6>
+        <p>
+            <a href="{{ package.link }}">
+                <span class="fa fa-github fa-lg"></span> Github</a>
+            </a>
+            <a href="biojulia.net/{{ package.name }}">
+                <span class="fa fa-globe fa-lg"> Webpage</a>
+            </a>
+        </p>
+    </div>
+</div>
+<br>
+{% endif %}
+{% endfor %}
+
+<h1>Infrastructure packages</h1>
+
+{% for package in site.data.packages %}
+{% if package.type == infrastructure %}
+<div class="card">
+    <div class="card-block">
+        <h4 class="card-title">{{ package.name }}</h4>
+        <h6 class="card-subtitle mb-2 text-muted">
+            {{ package.tagline }}
+        </h6>
+        <p>
+            <a href="{{ package.link }}">
+                <span class="fa fa-github fa-lg"></span> Github</a>
+            </a>
+            <a href="biojulia.net/{{ package.name }}">
+                <span class="fa fa-globe fa-lg"> Webpage</a>
+            </a>
+        </p>
+    </div>
+</div>
+<br>
+{% endif %}
+{% endfor %}
