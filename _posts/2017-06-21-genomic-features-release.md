@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "GenomicFeatures.jl release"
+title: "GenomicFeatures.jl v0.1 released"
 author: ben_ward
 categories: News
 tags: [release]

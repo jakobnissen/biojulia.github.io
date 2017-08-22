@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "BioSequences.jl release"
+title: "BioSequences.jl v0.6 released"
 author: ben_ward
 categories: News
 tags: [release]

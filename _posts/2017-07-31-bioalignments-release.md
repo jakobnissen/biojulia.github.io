@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "BioAlignments.jl release"
+title: "BioAlignments.jl v0.2 released"
 author: ben_ward
 categories: News
 tags: [release]
@@ -9,7 +9,7 @@ tags: [release]
 We are pleased to announce that our package for working with biological
 sequences in julia, BioAlignments.jl, has been released.
 
-The current version is 0.7.
+The current version is 0.2.
 
 We hope you enjoy using this package in your work.
 

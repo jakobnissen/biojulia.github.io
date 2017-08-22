@@ -32,6 +32,12 @@
   type: biology
   top: true
 
+- name: BioStructures.jl
+  link: https://github.com/BioJulia/BioStructures.jl
+  tagline: Macromolecular structures
+  type: biology
+  top: true
+
 - name: BufferedStreams.jl
   link: https://github.com/BioJulia/BufferedStreams.jl
   type: infrastructure
@@ -67,8 +73,3 @@
 - name: WaveletMatrices.jl
   link: https://github.com/BioJulia/WaveletMatrices.jl
   type: infrastructure
-
-- name: BioStructures.jl
-  link: https://github.com/BioJulia/BioStructures.jl
-  tagline: Macromolecular structures
-  type: biology

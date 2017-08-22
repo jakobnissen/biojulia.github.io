@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "BioBridgeR v1.0.0 released"
+title: "BioBridgeR v1.0 released"
 author: ben_ward
 categories: News
 tags: [release]
