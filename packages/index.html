@@ -7,7 +7,7 @@ layout: standardpage
 <h1>Biology packages</h1>
 
 {% for package in site.data.packages %}
-{% if package.type == biology %}
+{% if package.type == "biology" %}
 <div class="card">
     <div class="card-block">
         <h4 class="card-title">{{ package.name }}</h4>
@@ -31,7 +31,7 @@ layout: standardpage
 <h1>Infrastructure packages</h1>
 
 {% for package in site.data.packages %}
-{% if package.type == infrastructure %}
+{% if package.type == "infrastructure" %}
 <div class="card">
     <div class="card-block">
         <h4 class="card-title">{{ package.name }}</h4>
@@ -42,7 +42,7 @@ layout: standardpage
             <a href="{{ package.link }}">
                 <span class="fa fa-github fa-lg"></span> Github</a>
             </a>
-            <a href="biojulia.net/{{ package.name }}">
+            <a href="http://biojulia.net/{{ package.name }}">
                 <span class="fa fa-globe fa-lg"> Webpage</a>
             </a>
         </p>
