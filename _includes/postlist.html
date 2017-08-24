@@ -1,6 +1,6 @@
 {% assign numPost = include.postArray | size %}
 {% if numPost > 0 %}
-        {% for post in include.postArray %}
+        {% for post in include.postArray limit:4 %}
         {% assign author = site.data.authors[post.author] %}
             <div class="card">
                 <div class="card-block">
