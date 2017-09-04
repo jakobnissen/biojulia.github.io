@@ -34,11 +34,15 @@ layout: standardpage
 {% if package.type == "infrastructure" %}
 <div class="card">
     <div class="card-block">
-        <h4 class="card-title">{{ package.name }}</h4>
+        <a href="http://biojulia.net/{{ package.name }}">
+            <h4 class="card-title">{{ package.name }}</h4>
+        </a>
         <h6 class="card-subtitle mb-2 text-muted">
             {{ package.tagline }}
         </h6>
         <p>
+            <!-- Place this tag where you want the button to render. -->
+            <a class="github-button" href="https://github.com/BioJulia/{{ package.name }}/fork" data-icon="octicon-repo-forked" data-size="large" data-show-count="true" aria-label="Fork BioJulia/{{ package.name }} on GitHub">Fork</a>
             <a href="{{ package.link }}">
                 <span class="fa fa-github fa-lg"></span> Github</a>
             </a>
@@ -51,3 +55,5 @@ layout: standardpage
 <br>
 {% endif %}
 {% endfor %}
+
+<script async defer src="https://buttons.github.io/buttons.js"></script>
