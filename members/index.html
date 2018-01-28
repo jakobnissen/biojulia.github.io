@@ -6,15 +6,18 @@ active: members
 ---
 
 {% assign members = site.biojl_members | sort:"membername"  %}
+
+{% assign nmember = 0 %}
 {% for member in members %}
-{% assign loopindex = forloop.index | modulo: 3 %}
-{% if loopindex == 1 %}
+{% assign nmember = nmember | plus: 1 %}
+{% assign mod = nmember | modulo: 3 %}
+{% if mod == 1 %}
 <div class="row">
 {% endif %}
 <div class="col-md-3">
     <div class="thumbnail">
         <a href="{{ member.url }}">
-            <img class="img-thumbnail" src="https://avatars3.githubusercontent.com/{{ member.github }}?v=3&s=200" alt="{{ member.github }}" srcset="https://avatars3.githubusercontent.com/{{ member.github }}?v=3&s=250 1x, https://avatars3.githubusercontent.com/{{ member.github }}?v=3&s=500 2x, https://avatars3.githubusercontent.com/{{ member.github }}?v=3&s=750 3x, https://avatars3.githubusercontent.com/{{ member.github }}?v=3&s=1000 4x" data-proofer-ignore="true" />
+            <img class="img-thumbnail" src="https://github.com/{{ member.github }}.png" alt="{{ member.github }}" />
         </a>
         <p>
             <h3 class="media-heading">
@@ -23,8 +26,8 @@ active: members
             <h5>{{ member.biojl_roles | join:", " }}</h5>
         </p>
     </div>
-{% if loopindex == 0 or forloop.last == true %}
+</div>
+{% if mod == 0 %}
 </div> <!-- End of group -->
 {% endif %}
 {% endfor %}
-</div>

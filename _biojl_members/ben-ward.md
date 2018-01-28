@@ -25,5 +25,7 @@ In particular, I focused on the roles of hybridisation and recombination, and th
 Since working at the Earlham Institute I have worked on Genome Wide Association in Wheat, and have analysed several mouse species for evidence of hybridisation and recombination.
 I co-founded and maintain the BioJulia organisation, dedicated to creating a new open community, framework, and infrastructure for bioinformatics and computational biology, for the high performance Julia programming language for technical computing.
 
-BioJulia development and maintenance forms a large part of my postdoctoral work.
-My current BioJulia efforts are dedicated towards implementing high performance data structures and algorithms for computing with genetic polymorphism and population genomic datasets, as well as moving towards reference-less based bioinformatics in the pan genomic era of genomics.
+Currently I work in algorithms development at EI, in the field of genome assembly and variation analysis.
+Outcomes of this work will be contributed to BioJulia, including high performance data structures and algorithms for
+computing with genetic polymorphism and population genomic datasets, as well as moving towards tools for
+reference-less based bioinformatics in the pan genomic era of genomics.
