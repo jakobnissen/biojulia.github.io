@@ -21,6 +21,10 @@ title: Home
             for computing with biological data.
 
             This site is currently under construction. More is to come.
+
+            {% for repository in site.github.public_repositories %}
+  {{ repository }}
+{% endfor %}
         </p>
     </div>
 </div>

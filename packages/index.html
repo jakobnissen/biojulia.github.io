@@ -6,26 +6,27 @@ layout: standardpage
 
 <h1>Biology packages</h1>
 
-{% for package in site.data.packages %}
-{% if package.type == "biology" %}
+{% for repository in site.github.public_repositories %}
 <div class="card">
     <div class="card-block">
-        <h4 class="card-title">{{ package.name }}</h4>
+        <h4 class="card-title">{{ repository.name }}</h4>
         <h6 class="card-subtitle mb-2 text-muted">
-            {{ package.tagline }}
+            {{ repository.description }}
         </h6>
         <p>
-            <a href="{{ package.link }}">
+            <a href="{{ repository.html_url }}">
                 <span class="fa fa-github fa-lg"></span> Github</a>
             </a>
             <a href="biojulia.net/{{ package.name }}">
                 <span class="fa fa-globe fa-lg"> Webpage</a>
             </a>
+            {% for topic in repository.topics %}
+                {{ topic }}
+            {% endfor %}
         </p>
     </div>
 </div>
 <br>
-{% endif %}
 {% endfor %}
 
 <h1>Infrastructure packages</h1>
