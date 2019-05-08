@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   height="136.48"
+   width="136.48"
+   version="1.1"
+   viewBox="0 0 136.48101 0"
+   id="svg2"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="featured.svg"
+   inkscape:export-filename="/Users/bward/repos/software/BioJulia/academic-website/content/project/biosequences/featured.png"
+   inkscape:export-xdpi="600"
+   inkscape:export-ydpi="600">
+  <metadata
+     id="metadata56">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs54" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="856"
+     inkscape:window-height="729"
+     id="namedview52"
+     showgrid="false"
+     inkscape:zoom="2.2713951"
+     inkscape:cx="68.239998"
+     inkscape:cy="96.177788"
+     inkscape:window-x="587"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg2" />
+  <g
+     transform="translate(0,-960.85933)"
+     id="g4">
+    <g
+       id="g6">
+      <circle
+         cx="5.9791999"
+         cy="1021.2"
+         r="5.9791999"
+         id="circle8"
+         style="fill:#945bb0" />
+      <circle
+         cy="1040.4"
+         cx="21.316999"
+         r="4.9393001"
+         id="circle10"
+         style="fill:#4266d5" />
+      <circle
+         cx="16.378"
+         cy="1012.6"
+         r="4.9393001"
+         id="circle12"
+         style="fill:#c93d39" />
+      <circle
+         cy="1036.8"
+         cx="35.095001"
+         r="5.9791999"
+         id="circle14"
+         style="fill:#945bb0" />
+      <circle
+         cx="47.183998"
+         cy="1024.7"
+         r="7.4089999"
+         id="circle16"
+         style="fill:#4266d5" />
+      <circle
+         cy="1010.6"
+         cx="28.986"
+         r="4.5493999"
+         id="circle18"
+         style="fill:#3b972e" />
+      <circle
+         cx="89.428001"
+         cy="1047.4"
+         r="4.9393001"
+         id="circle20"
+         style="fill:#c93d39" />
+      <circle
+         cy="1006.5"
+         cx="71.620003"
+         r="5.5892"
+         id="circle22"
+         style="fill:#945bb0" />
+      <circle
+         cx="121.01"
+         cy="1016.4"
+         r="5.5892"
+         id="circle24"
+         style="fill:#c93d39" />
+      <circle
+         cx="59.661999"
+         cy="1031.2"
+         r="2.4697001"
+         id="circle26"
+         style="fill:#4266d5" />
+      <circle
+         cy="1020.8"
+         cx="103.6"
+         r="3.2495999"
+         id="circle28"
+         style="fill:#c93d39" />
+      <circle
+         cx="123.61"
+         cy="1037.4"
+         r="2.7296"
+         id="circle30"
+         style="fill:#4266d5" />
+      <circle
+         cx="127.64"
+         cy="1006.1"
+         r="3.8994999"
+         id="circle32"
+         style="fill:#3b972e" />
+      <circle
+         cy="1040.1"
+         cx="132.58"
+         r="3.8994999"
+         id="circle34"
+         style="fill:#945bb0" />
+      <circle
+         cx="67.591003"
+         cy="1038.3"
+         r="3.3794999"
+         id="circle36"
+         style="fill:#3b972e" />
+      <circle
+         cy="1014.8"
+         cx="95.016998"
+         r="4.2894001"
+         id="circle38"
+         style="fill:#4266d5" />
+      <circle
+         cx="77.728996"
+         cy="1043.8"
+         r="3.8994999"
+         id="circle40"
+         style="fill:#945bb0" />
+      <circle
+         cy="1042.9"
+         cx="102.56"
+         r="5.8491998"
+         id="circle42"
+         style="fill:#4266d5" />
+      <circle
+         cx="113.6"
+         cy="1029.7"
+         r="6.7591"
+         id="circle44"
+         style="fill:#3b972e" />
+      <circle
+         cx="57.582001"
+         cy="1011.9"
+         r="6.3691001"
+         id="circle46"
+         style="fill:#c93d39" />
+      <circle
+         cy="1015.7"
+         cx="38.735001"
+         r="3.3794999"
+         id="circle48"
+         style="fill:#c93d39" />
+      <circle
+         cy="1008.8"
+         cx="84.617996"
+         r="5.3292999"
+         id="circle50"
+         style="fill:#3b972e" />
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects on BioJulia</title>
+    <link>https://BioJulia.github.io/project/</link>
+    <description>Recent content in Projects on BioJulia</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Ben J. Ward</copyright>
+    <lastBuildDate>Fri, 05 Apr 2019 22:35:13 +0100</lastBuildDate>
+    
+	<atom:link href="https://BioJulia.github.io/project/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>BioSequences</title>
+      <link>https://BioJulia.github.io/project/biosequences/</link>
+      <pubDate>Fri, 05 Apr 2019 22:35:13 +0100</pubDate>
+      
+      <guid>https://BioJulia.github.io/project/biosequences/</guid>
+      <description> Description BioSequences provides data types and methods for common operations with biological sequences, including DNA, RNA, and amino acid sequences.
+Features include:  DNA, RNA, and Amino Acid sequence types. Kmer and Skipmer sequence types. Methods for sequence transformations. Methods for motif searching. Mismatch and gc counting.  </description>
+    </item>
+    
+    <item>
+      <title>BioSymbols</title>
+      <link>https://BioJulia.github.io/project/biosymbols/</link>
+      <pubDate>Fri, 05 Apr 2019 22:35:13 +0100</pubDate>
+      
+      <guid>https://BioJulia.github.io/project/biosymbols/</guid>
+      <description> Description BioSymbols defines the primitive type for nucleic acids and amino acids that are used for many other packages in the BioJulia software ecosystem.
+Features include:  DNA, RNA, and Amino Acid sequence types. Constants for the DNA, RNA, and AA symbols e.g. DNA_A, DNA_C, DNA_G, &amp;amp; DNA_T.  </description>
+    </item>
+    
+  </channel>
+</rss>

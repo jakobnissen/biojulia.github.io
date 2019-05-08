@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on BioJulia</title>
+    <link>https://BioJulia.github.io/tags/</link>
+    <description>Recent content in Tags on BioJulia</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Ben J. Ward</copyright>
+    <lastBuildDate>Fri, 05 Apr 2019 22:35:13 +0100</lastBuildDate>
+    
+	<atom:link href="https://BioJulia.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Amino-Acid</title>
+      <link>https://BioJulia.github.io/tags/amino-acid/</link>
+      <pubDate>Fri, 05 Apr 2019 22:35:13 +0100</pubDate>
+      
+      <guid>https://BioJulia.github.io/tags/amino-acid/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>DNA</title>
+      <link>https://BioJulia.github.io/tags/dna/</link>
+      <pubDate>Fri, 05 Apr 2019 22:35:13 +0100</pubDate>
+      
+      <guid>https://BioJulia.github.io/tags/dna/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Kmers</title>
+      <link>https://BioJulia.github.io/tags/kmers/</link>
+      <pubDate>Fri, 05 Apr 2019 22:35:13 +0100</pubDate>
+      
+      <guid>https://BioJulia.github.io/tags/kmers/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>RNA</title>
+      <link>https://BioJulia.github.io/tags/rna/</link>
+      <pubDate>Fri, 05 Apr 2019 22:35:13 +0100</pubDate>
+      
+      <guid>https://BioJulia.github.io/tags/rna/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sequencing</title>
+      <link>https://BioJulia.github.io/tags/sequencing/</link>
+      <pubDate>Fri, 05 Apr 2019 22:35:13 +0100</pubDate>
+      
+      <guid>https://BioJulia.github.io/tags/sequencing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Skipmers</title>
+      <link>https://BioJulia.github.io/tags/skipmers/</link>
+      <pubDate>Fri, 05 Apr 2019 22:35:13 +0100</pubDate>
+      
+      <guid>https://BioJulia.github.io/tags/skipmers/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>package</title>
+      <link>https://BioJulia.github.io/tags/package/</link>
+      <pubDate>Fri, 05 Apr 2019 22:35:13 +0100</pubDate>
+      
+      <guid>https://BioJulia.github.io/tags/package/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

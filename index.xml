@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>BioJulia on BioJulia</title>
+    <link>https://BioJulia.github.io/</link>
+    <description>Recent content in BioJulia on BioJulia</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
+    <language>en-us</language>
+    <copyright>Ben J. Ward</copyright>
+    <lastBuildDate>Fri, 05 Apr 2019 22:35:13 +0100</lastBuildDate>
+    <atom:link href="/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>BioSequences</title>
+      <link>https://BioJulia.github.io/project/biosequences/</link>
+      <pubDate>Fri, 05 Apr 2019 22:35:13 +0100</pubDate>
+      
+      <guid>https://BioJulia.github.io/project/biosequences/</guid>
+      <description>
+
+&lt;h2 id=&#34;description&#34;&gt;Description&lt;/h2&gt;
+
+&lt;p&gt;BioSequences provides data types and methods for common operations with biological sequences, including DNA, RNA, and amino acid sequences.&lt;/p&gt;
+
+&lt;h2 id=&#34;features-include&#34;&gt;Features include:&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;DNA, RNA, and Amino Acid sequence types.&lt;/li&gt;
+&lt;li&gt;Kmer and Skipmer sequence types.&lt;/li&gt;
+&lt;li&gt;Methods for sequence transformations.&lt;/li&gt;
+&lt;li&gt;Methods for motif searching.&lt;/li&gt;
+&lt;li&gt;Mismatch and gc counting.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>BioSymbols</title>
+      <link>https://BioJulia.github.io/project/biosymbols/</link>
+      <pubDate>Fri, 05 Apr 2019 22:35:13 +0100</pubDate>
+      
+      <guid>https://BioJulia.github.io/project/biosymbols/</guid>
+      <description>
+
+&lt;h2 id=&#34;description&#34;&gt;Description&lt;/h2&gt;
+
+&lt;p&gt;BioSymbols defines the primitive type for nucleic acids and amino acids that are used for many other packages in the BioJulia software ecosystem.&lt;/p&gt;
+
+&lt;h2 id=&#34;features-include&#34;&gt;Features include:&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;DNA, RNA, and Amino Acid sequence types.&lt;/li&gt;
+&lt;li&gt;Constants for the DNA, RNA, and AA symbols e.g. DNA_A, DNA_C, DNA_G, &amp;amp; DNA_T.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Getting Started</title>
+      <link>https://BioJulia.github.io/getting-started/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://BioJulia.github.io/getting-started/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
