@@ -1,77 +1,62 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on BioJulia</title>
+    <title>Tags | BioJulia</title>
     <link>https://BioJulia.github.io/tags/</link>
-    <description>Recent content in Tags on BioJulia</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>Ben J. Ward</copyright>
-    <lastBuildDate>Fri, 05 Apr 2019 22:35:13 +0100</lastBuildDate>
-    
-	<atom:link href="https://BioJulia.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
-    
+      <atom:link href="https://BioJulia.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <description>Tags</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Ben J. Ward</copyright><lastBuildDate>Thu, 23 Jan 2020 23:01:09 +0000</lastBuildDate>
+    <image>
+      <url>https://BioJulia.github.io/images/logo_huf2e28fc1e802707079b8e0ffee62f4dc_19447_300x300_fit_lanczos_2.png</url>
+      <title>Tags</title>
+      <link>https://BioJulia.github.io/tags/</link>
+    </image>
     
     <item>
-      <title>Amino-Acid</title>
-      <link>https://BioJulia.github.io/tags/amino-acid/</link>
-      <pubDate>Fri, 05 Apr 2019 22:35:13 +0100</pubDate>
-      
-      <guid>https://BioJulia.github.io/tags/amino-acid/</guid>
+      <title>Benchmarking</title>
+      <link>https://BioJulia.github.io/tags/benchmarking/</link>
+      <pubDate>Thu, 23 Jan 2020 23:01:09 +0000</pubDate>
+      <guid>https://BioJulia.github.io/tags/benchmarking/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>BioSequences</title>
+      <link>https://BioJulia.github.io/tags/biosequences/</link>
+      <pubDate>Thu, 23 Jan 2020 23:01:09 +0000</pubDate>
+      <guid>https://BioJulia.github.io/tags/biosequences/</guid>
       <description></description>
     </item>
     
     <item>
       <title>DNA</title>
       <link>https://BioJulia.github.io/tags/dna/</link>
-      <pubDate>Fri, 05 Apr 2019 22:35:13 +0100</pubDate>
-      
+      <pubDate>Thu, 23 Jan 2020 23:01:09 +0000</pubDate>
       <guid>https://BioJulia.github.io/tags/dna/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Kmers</title>
-      <link>https://BioJulia.github.io/tags/kmers/</link>
-      <pubDate>Fri, 05 Apr 2019 22:35:13 +0100</pubDate>
-      
-      <guid>https://BioJulia.github.io/tags/kmers/</guid>
       <description></description>
     </item>
     
     <item>
       <title>RNA</title>
       <link>https://BioJulia.github.io/tags/rna/</link>
-      <pubDate>Fri, 05 Apr 2019 22:35:13 +0100</pubDate>
-      
+      <pubDate>Thu, 23 Jan 2020 23:01:09 +0000</pubDate>
       <guid>https://BioJulia.github.io/tags/rna/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Sequencing</title>
-      <link>https://BioJulia.github.io/tags/sequencing/</link>
-      <pubDate>Fri, 05 Apr 2019 22:35:13 +0100</pubDate>
-      
-      <guid>https://BioJulia.github.io/tags/sequencing/</guid>
+      <title>Seq-Lang</title>
+      <link>https://BioJulia.github.io/tags/seq-lang/</link>
+      <pubDate>Thu, 23 Jan 2020 23:01:09 +0000</pubDate>
+      <guid>https://BioJulia.github.io/tags/seq-lang/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Skipmers</title>
-      <link>https://BioJulia.github.io/tags/skipmers/</link>
-      <pubDate>Fri, 05 Apr 2019 22:35:13 +0100</pubDate>
-      
-      <guid>https://BioJulia.github.io/tags/skipmers/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>package</title>
-      <link>https://BioJulia.github.io/tags/package/</link>
-      <pubDate>Fri, 05 Apr 2019 22:35:13 +0100</pubDate>
-      
-      <guid>https://BioJulia.github.io/tags/package/</guid>
+      <title>Sequences</title>
+      <link>https://BioJulia.github.io/tags/sequences/</link>
+      <pubDate>Thu, 23 Jan 2020 23:01:09 +0000</pubDate>
+      <guid>https://BioJulia.github.io/tags/sequences/</guid>
       <description></description>
     </item>
     
