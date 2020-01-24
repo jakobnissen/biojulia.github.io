@@ -103,9 +103,7 @@ series), did not change the results very much. The barplot shows shows the mean
 benchmarked tasks, and we wanted to know why. So we profiled their BioJulia code
 to see what BioJulia was taking its sweet time doing. The results for the three
 benchmarks are shown below in &lt;strong&gt;Figure 3&lt;/strong&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;fig3-a.png&#34; alt=&#34;figure3-a&#34;&gt;
-&lt;img src=&#34;fig3-b.png&#34; alt=&#34;figure3-b&#34;&gt;
-&lt;img src=&#34;fig3-c.png&#34; alt=&#34;figure3-c&#34;&gt;
+&lt;p&gt;&lt;img src=&#34;fig3.png&#34; alt=&#34;figure3&#34;&gt;
 &lt;strong&gt;Figure 3. Barplots showing the fraction of time BioJulia benchmarking code was
 spending doing various sub-tasks, as determined by the built-in Julia Profiler
 tool.&lt;/strong&gt;&lt;/p&gt;
