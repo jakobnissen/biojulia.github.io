@@ -5,7 +5,7 @@
     <link>https://BioJulia.github.io/authors/</link>
       <atom:link href="https://BioJulia.github.io/authors/index.xml" rel="self" type="application/rss+xml" />
     <description>Authors</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Ben J. Ward</copyright><lastBuildDate>Thu, 23 Jan 2020 23:01:09 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Ben J. Ward</copyright><lastBuildDate>Sun, 19 Apr 2020 12:38:38 +0200</lastBuildDate>
     <image>
       <url>https://BioJulia.github.io/images/logo_huf2e28fc1e802707079b8e0ffee62f4dc_19447_300x300_fit_lanczos_2.png</url>
       <title>Authors</title>
@@ -14,19 +14,19 @@
     
     <item>
       <title></title>
-      <link>https://BioJulia.github.io/authors/admin/</link>
-      <pubDate>Thu, 23 Jan 2020 23:01:09 +0000</pubDate>
-      <guid>https://BioJulia.github.io/authors/admin/</guid>
-      <description></description>
+      <link>https://BioJulia.github.io/authors/jakobnissen/</link>
+      <pubDate>Sun, 19 Apr 2020 12:38:38 +0200</pubDate>
+      <guid>https://BioJulia.github.io/authors/jakobnissen/</guid>
+      <description>&lt;p&gt;I am a bioinformatician at Statens Serum Institut (the Danish center for disease control), where I analyze genome of influenza with the purpose of better understanding pandemic flu.&lt;/p&gt;
+</description>
     </item>
     
     <item>
       <title></title>
-      <link>https://BioJulia.github.io/authors/jakobnissen/</link>
+      <link>https://BioJulia.github.io/authors/admin/</link>
       <pubDate>Thu, 23 Jan 2020 23:01:09 +0000</pubDate>
-      <guid>https://BioJulia.github.io/authors/jakobnissen/</guid>
-      <description>&lt;p&gt;I am a bioinformatician doing my PhD in metagenomic method development at Technical University of Denmark.&lt;/p&gt;
-</description>
+      <guid>https://BioJulia.github.io/authors/admin/</guid>
+      <description></description>
     </item>
     
     <item>

@@ -3,27 +3,37 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://BioJulia.github.io/authors/jakobnissen/</loc>
+    <lastmod>2020-04-19T12:38:38+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://BioJulia.github.io/authors/</loc>
+    <lastmod>2020-04-19T12:38:38+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://BioJulia.github.io/</loc>
+    <lastmod>2020-04-19T12:38:38+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://BioJulia.github.io/post/</loc>
+    <lastmod>2020-04-19T12:38:38+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://BioJulia.github.io/post/hardware/</loc>
+    <lastmod>2020-04-19T12:38:38+02:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://BioJulia.github.io/authors/admin/</loc>
     <lastmod>2020-01-23T23:01:09+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://BioJulia.github.io/authors/jakobnissen/</loc>
-    <lastmod>2020-01-23T23:01:09+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://BioJulia.github.io/authors/</loc>
-    <lastmod>2020-01-23T23:01:09+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://BioJulia.github.io/tags/benchmarking/</loc>
-    <lastmod>2020-01-23T23:01:09+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://BioJulia.github.io/</loc>
     <lastmod>2020-01-23T23:01:09+00:00</lastmod>
   </url>
   
@@ -39,11 +49,6 @@
   
   <url>
     <loc>https://BioJulia.github.io/post/seq-lang/</loc>
-    <lastmod>2020-01-23T23:01:09+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://BioJulia.github.io/post/</loc>
     <lastmod>2020-01-23T23:01:09+00:00</lastmod>
   </url>
   
