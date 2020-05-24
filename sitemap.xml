@@ -38,7 +38,17 @@
   </url>
   
   <url>
+    <loc>https://BioJulia.github.io/post/biojl/</loc>
+    <lastmod>2020-01-23T23:01:09+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://BioJulia.github.io/tags/biosequences/</loc>
+    <lastmod>2020-01-23T23:01:09+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://BioJulia.github.io/tags/deprecation/</loc>
     <lastmod>2020-01-23T23:01:09+00:00</lastmod>
   </url>
   
