@@ -1,4 +1,6 @@
 +++
+using Dates
+
 title = "More goodies"
 hascode = true
 rss = "A short description of the page which would serve as **blurb** in a `RSS` feed; you can use basic markdown here but the whole description string must be a single line (not a multiline string). Like this one for instance. Keep in mind that styling is minimal in RSS so for instance don't expect maths or fancy styling to work; images should be ok though: ![](https://upload.wikimedia.org/wikipedia/en/b/b0/Rick_and_Morty_characters.jpg)"
@@ -107,23 +109,3 @@ For instance you can use it to customise how [tag pages look like](/menu3/#custo
 A nice example of what you can do is in the [SymbolicUtils.jl manual](https://juliasymbolics.github.io/SymbolicUtils.jl/api/) where they use a `hfun_` to generate HTML encapsulating the content of code docstrings, in a way doing something similar to what Documenter does. See [how they defined it](https://github.com/JuliaSymbolics/SymbolicUtils.jl/blob/website/utils.jl).
 
 **Note**: the  output **will not** be reprocessed by Franklin, if you want to generate markdown which should be processed by Franklin, then use `return fd2html(markdown, internal=true)` at the end.
-
-### Custom "lx"
-
-These commands will look the same as latex commands but what they do with their content is now entirely controlled by your code.
-You can use this to do your own parsing of specific chunks of your content if you so desire.
-
-The definition of `lx_*` commands **must** look like this:
-
-```julia
-function lx_baz(com, _)
-  # keep this first line
-  brace_content = Franklin.content(com.braces[1]) # input string
-  # do whatever you want here
-  return uppercase(brace_content)
-end
-```
-
-You can call the above with `\baz{some string}`: \baz{some string}.
-
-**Note**: the output **will be** reprocessed by Franklin, if you want to avoid this, then escape the output by using `return "~~~" * s * "~~~"` and it will be plugged  in as is in the HTML.
