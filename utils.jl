@@ -54,7 +54,7 @@ function hfun_list_posts(t::String)
                 (
                     node("li",
                         node("span", class="date", Dates.format(p.date, "U d, yyyy")),
-                        node("a", class="title", href=p.href, p.title)
+                        node("a", class="title", href=p.href, " $(p.title)")
                     )
                     for p in get_posts(t)
                 )...

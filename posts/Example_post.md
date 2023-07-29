@@ -2,7 +2,10 @@
 using Dates
 date = Date("2023-07-29")
 title = "Hello from JuliaCon 2023!"
+author = "kevin"
 +++
+
+# Hello from JuliaCon 2023!
 
 This is an example post for the new website.
 
