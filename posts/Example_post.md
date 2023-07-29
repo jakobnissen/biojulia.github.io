@@ -21,3 +21,7 @@ bar = "Variables get saved"
 println(foo)
 ```
 
+We can even include Literate.jl notebooks
+with their own environment / deps!
+
+\literate{_assets/literate/literate_example/post.jl; project=.} 
