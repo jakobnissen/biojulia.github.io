@@ -7,6 +7,8 @@ author = "sabrina"
 
 # Bio.jl is old and deprecated
 
+![biojulia logo](/assets/biojulia-logo1.png)
+
 Hi there! There have been incidents of confusion where newer users have tried to install and run an old and deprecated BioJulia package called `Bio.jl`, or they have not known which package(s) they need to install in order to start working.
 
 So I'd like to take the opportunity to clear this situation up and perhaps put out a clearer explanation, of why Bio.jl exists when there are other packages with overlapping functionality.
@@ -21,14 +23,14 @@ Eventually there came a point where datatype and algorithm specific packages mad
 
 And so the package got split into many:
 
-- `Bio.Seq` became `BioSequences.jl`
-- `Bio.Align` became `BioAlignments.jl`
-- `Bio.Intervals` became `GenomicFeatures.jl`
-- `Bio.Structure` became `BioStructures.jl`
-- `Bio.Var` became `GeneticVariation.jl`
-- `Bio.Phylo` became `Phylogenies.jl`
-- `Bio.Services` became `BioServices.jl`
-- `Bio.Tools` became `BioTools.jl`
+- `Bio.Seq` became [`BioSequences.jl`](https://github.com/BioJulia/BioSequences.jl/)
+- `Bio.Align` became [`BioAlignments.jl`](https://github.com/BioJulia/BioAlignments.jl/)
+- `Bio.Intervals` became [`GenomicFeatures.jl`](https://github.com/BioJulia/GenomicFeatures.jl/)
+- `Bio.Structure` became [`BioStructures.jl`](https://github.com/BioJulia/BioStructures.jl/)
+- `Bio.Var` became [`GeneticVariation.jl`](https://github.com/BioJulia/GeneticVariation.jl/)
+- `Bio.Phylo` became [`Phylogenies.jl`](https://github.com/BioJulia/Phylogenies.jl/)
+- `Bio.Services` became [`BioServices.jl`](https://github.com/BioJulia/BioServices.jl/)
+- `Bio.Tools` became [`BioTools.jl`](https://github.com/BioJulia/BioTools.jl/)
 
 `Bio.jl` then basically persisted as a convenience wrapper around those packages, so that they could be installed with a single command and were distributed set to compatible versions.
 
