@@ -1,6 +1,6 @@
 # BioJulia.dev
 
-[![Website URL badge](https://img.shields.io/badge/site-BioJulia.dev-blue)][https://biojulia.dev]
+[![Website URL badge](https://img.shields.io/badge/site-BioJulia.dev-blue)](https://biojulia.dev)
 
 
 
