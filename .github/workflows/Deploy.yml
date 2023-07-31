@@ -5,12 +5,12 @@ on:
       - master
   pull_request:
     branches:
-      - main
+      - master
     types: [opened, synchronize]
 
 env:
   GH_USERNAME: "BioJulia"
-  REPO_PREFIX: "biojulia.github.io"
+  REPO_PREFIX: "biojulia.dev"
   PREVIEWS_PREFIX: "previews/PR"  # will be followed by PR number
 
 jobs:
