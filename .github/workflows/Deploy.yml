@@ -10,7 +10,6 @@ on:
 
 env:
   GH_USERNAME: "BioJulia"
-  REPO_PREFIX: "biojulia.dev"
   PREVIEWS_PREFIX: "previews/PR"  # will be followed by PR number
 
 jobs:
